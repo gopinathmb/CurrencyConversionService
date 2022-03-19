@@ -1,2 +1,4 @@
-# springboot
-This project was created to explore SpringBoot and Netflix open source services.
+# Exploring Below concepts through this repo (WIP)
+1. Rest and it's Best practices
+2. JPA through H2 DB
+
