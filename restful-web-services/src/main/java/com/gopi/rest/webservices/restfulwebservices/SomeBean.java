@@ -1,11 +1,13 @@
 package com.gopi.rest.webservices.restfulwebservices;
 
+import com.fasterxml.jackson.annotation.JsonFilter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 //you can mark field level or you can specify the list of fields also. Field level is better as
 // it will be still effective even if the field name changes
-@JsonIgnoreProperties(value = {"field1"})
+//@JsonIgnoreProperties(value = {"field1"})
+@JsonFilter("SomeBeanFilter")
 public class SomeBean {
     private String field1;
     @JsonIgnore
