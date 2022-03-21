@@ -1,4 +1,4 @@
-package com.gopi.rest.webservices.restfulwebservices;
+package com.gopi.rest.webservices.restfulwebservices.filter;
 
 import com.fasterxml.jackson.annotation.JsonFilter;
 import com.fasterxml.jackson.annotation.JsonIgnore;

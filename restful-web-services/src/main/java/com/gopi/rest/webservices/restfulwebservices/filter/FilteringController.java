@@ -1,4 +1,4 @@
-package com.gopi.rest.webservices.restfulwebservices;
+package com.gopi.rest.webservices.restfulwebservices.filter;
 
 import com.fasterxml.jackson.databind.ser.impl.SimpleBeanPropertyFilter;
 import com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider;
