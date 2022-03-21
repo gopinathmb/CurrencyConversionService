@@ -69,10 +69,11 @@
         </dependency>
 
         <!--Security, this enforces username and password as a part of every request-->
-        <dependency>
+        <!--Disable for now as we wanted to explore more on spring and it is easy without security enables -->
+       <!-- <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
+        </dependency> -->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
