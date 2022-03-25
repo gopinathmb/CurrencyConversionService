@@ -5,7 +5,8 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-@FeignClient(name = "currency-exchange", url = "localhost:8002")
+//By Default it talks to naming server and load balances. So just adding Feign and Eureka server will take care of load balancing.
+@FeignClient(name = "currency-exchange")
 public interface CurrencyExchangeProxy {
 
     @GetMapping("/currency-exchange/from/{from}/to/{to}")
