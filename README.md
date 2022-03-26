@@ -3,7 +3,7 @@
 2. JPA through H2 DB
 
 Important Urls
-currency-exchange service
+currency-exchange service - We take 3 inputs from currency, to currency and quantity of currency to be converted. We return back the result after converting into desired currency.
 -http://localhost:8000/currency-exchange/from/USD/to/INR
 
 
